@@ -1,0 +1,30 @@
+.slogan_link {
+    text-decoration: none;
+    color: aqua;
+    font-size: 43px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    text-shadow: 4px 4px 12px rgb(133, 127, 127);
+}
+
+.hipertexto {
+    transition: .5s;
+}
+i.hipertexto:hover {
+    letter-spacing: .1em;
+    transform: scale(1, 1.2);
+    cursor: pointer;
+
+}
+
+span a p {
+    font-weight: bold; font-size: 120px; font-style: italic;
+    transition: 1s;
+}
+
+span a p:hover {
+    text-decoration: underline;
+    letter-spacing: .1em;
+}

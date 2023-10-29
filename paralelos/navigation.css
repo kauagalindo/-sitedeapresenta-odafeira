@@ -1,0 +1,43 @@
+
+#logo {
+    font-size: 3em;
+    margin-left: 1em;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.navigation_lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_item_lista {
+    margin: 2em 1em 1em 1em;
+    transition: .5s;
+}
+
+.navigation_link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 1em;
+    transition: .5s;
+}
+
+.navigation_link, .navigation_item_lista:hover {
+    transform: scale(1,1.2);
+}
+
+.navigation_link:hover {
+    letter-spacing: .1em;
+    text-shadow: 4px 4px 12px rgb(255, 255, 255);
+    font-weight: bold;
+    color: rgb(1, 7, 5);
+}

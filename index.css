@@ -1,0 +1,39 @@
+/*Esta folha de css é apenas para mudanças genéricas no site*/
+@import url('paralelos/navigation.css');
+@import url('paralelos/cubo.css');
+@import url('paralelos/slogan.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+:root {
+    --cor-de-fundo: rgb(255, 255, 255);
+    --fonte-principal: 'Poppins';
+    --cor-de-fonte: rgb(14, 20, 18);
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: var(--cor-de-fundo);
+    height: 8.5vh;
+    box-shadow: 0 0 12px rgb(168, 168, 168);
+}
+
+body {
+    font-family: 'Poppins';
+    color: rgb(14, 20, 18);
+    background: linear-gradient(30deg, rgb(255, 255, 255), rgb(0, 0, 0)); /* Gradiente de preto a branco */
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

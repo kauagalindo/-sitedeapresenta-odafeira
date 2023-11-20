@@ -22,9 +22,9 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    background: var(--cor-de-fundo);
+    background: none;
     height: 8.5vh;
-    box-shadow: 0 0 12px rgb(168, 168, 168);
+    box-shadow: 0 0 12px rgba(168, 168, 168, 0);
 }
 
 body {

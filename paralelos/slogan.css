@@ -1,3 +1,29 @@
+h2.titulo {
+    margin-top: 0.2em;
+    margin-left: 0.1223em;
+    position: relative;
+    font-size: 84px;
+    color: aqua;
+    -webkit-text-stroke: 0.3vw rgb(36, 35, 35);
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-style: italic;
+}
+
+h2.titulo::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: aqua;
+    -webkit-text-stroke: 0vw aqua;
+    border-right: 2px solid aqua;
+    overflow: hidden;
+    animation: animation 6s linear ;
+}
+
 .slogan_link {
     text-decoration: none;
     color: aqua;
@@ -27,4 +53,16 @@ span a p {
 span a p:hover {
     text-decoration: underline;
     letter-spacing: .1em;
+}
+
+@keyframes animation {
+    0%,10%,100%
+    {
+      width: 0;
+    }
+
+    70%,90%
+    {
+     width: 100%;
+    }
 }

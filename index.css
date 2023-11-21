@@ -30,7 +30,7 @@ header {
 body {
     font-family: 'Poppins';
     color: rgb(14, 20, 18);
-    background: linear-gradient(30deg, rgb(255, 255, 255), rgb(0, 0, 0)); /* Gradiente de preto a branco */
+    background: linear-gradient(30deg, rgb(37, 36, 36), rgb(0, 0, 0)); /* Gradiente de preto a branco */
     width: 100vw;
     min-height: 100vh;
     display: flex;

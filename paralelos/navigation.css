@@ -41,3 +41,35 @@
     font-weight: bold;
     color: rgb(1, 7, 5);
 }
+
+@media only screen and (max-width: 768px) {
+    #logo {
+        font-size: 2em;
+        margin-left: 0.5em;
+        margin-top: 10px;
+    }
+
+    .navigation_lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation_item_lista {
+        margin: 1em;
+    }
+
+    .navigation_link {
+        margin-top: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation_link, .navigation_item_lista:hover {
+        transform: none; /* Remover a escala */
+    }
+
+    .navigation_link:hover {
+        letter-spacing: 0;
+        text-shadow: none;
+    }
+}

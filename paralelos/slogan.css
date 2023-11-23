@@ -67,3 +67,38 @@ video {
      width: 100%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    h2.titulo {
+        font-size: 2em;
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    h2 span {
+        color: aqua;
+    }
+
+    .slogan_link {
+        font-size: 24px; /* Ajuste o tamanho do texto conforme necessário */
+    }
+
+    .hipertexto:hover {
+        letter-spacing: 0;
+        transform: none;
+    }
+
+    span a p {
+        font-size: 80px; /* Ajuste o tamanho do texto conforme necessário */
+    }
+
+    @keyframes animation {
+        0%, 10%, 100% {
+            width: 0;
+        }
+
+        70%, 90% {
+            width: 100%;
+        }
+    }
+}
